@@ -1,0 +1,224 @@
+body{
+    background-color:rgba(250, 229, 204, 0.89);
+}
+.a {
+    margin: auto;
+  width: 99%;
+  background-color: bisque;
+  border: 3px solid rgb(128, 119, 0);
+}
+.logo{
+    display: flex;
+    margin-top: -140px;
+}
+.title{
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+}
+.logobut{
+    width: 100px;
+}
+.button{
+    position: absolute;
+    right: 45px;
+    top: 30px;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    font-size: 60px;
+}
+.button[name="drop"]{
+    border: none;
+    cursor: pointer;
+    background-color: #5e230602;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+  }
+  .drop-content{
+    display: none;
+    background-color: #e4a87a00;
+}
+.drop-content a{
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  .menu-drop:hover .drop-content{
+    display: block;
+  }
+  .menu-drop:hover button[name="drop"]{
+    background-color: #e2713d00
+  }
+
+.drop-content a:hover{
+    background-color: #C9936F;
+  }
+  .A1{
+    position: absolute;
+    right: 40px;
+    top: 80px;
+    
+  }
+  .A2{
+    position: absolute;
+  }
+  .A3{
+    position: absolute;
+    right: 100px;
+    top: 80px;
+  }
+  #login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.card {
+
+    background-color: rgba(19, 19, 19, 0.3);
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width:280px;
+
+}
+
+.card-header {
+
+    padding-bottom: 50px;
+
+    opacity: 0.8;
+
+    color: rgb(0, 0, 0);
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+
+    background-color: rgb(0, 0, 0);
+
+    display: block;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+
+}
+
+.card-content label {
+
+    color: rgb(0, 0, 0);
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #000000;
+
+    outline: none;
+
+    color: rgb(0, 0, 0);
+
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.card-footer .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #b97714;
+
+    border:none;
+
+    color:#0a0000;
+
+    margin: 10px 0;
+
+}
+
+.card-footer a {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: rgb(0, 0, 0);
+
+    text-decoration: none;
+
+} 
+
+.A2{
+    top: 350px;
+}
+.topo{
+    position: fixed;
+}
+.ab{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}.ac{
+    position:absolute;
+    top: 200px;
+    left: 20px;
+}
+.ad{
+    position: absolute;
+    top: 200px;
+    left: 580px;
+}
+.dentro{
+  
+}
